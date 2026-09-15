@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi Sitio</title>
+<style>
+body { font-family: system-ui, sans-serif; max-width: 900px;
+margin: 2rem auto; line-height: 1.5; }
+.header, .menu, .content, .sidebar, .post, .footer { padding:
+12px; border: 1px solid #ddd; margin-bottom: 12px; }
+.menu a { margin-right: 8px; }
+.label { font-weight: bold; }
+.date { color: #666; }
+blockquote { font-style: italic; margin: 0; padding-left: 12px;
+border-left: 3px solid #ddd; }
+</style>
+</head>
+<body>
+    <header>
+        <div class="header">
+        <h1 class="title">Mi Blog Personal</h1>
+        <nav>
+            <div class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Artículos</a>
+            <a href="#">Contacto</a>
+            </div>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+        <div class="post">
+            <article>
+                <h2>Novedades de HTML5</h2>
+                <p><time datetime="2024-12-20" class="date">Publicado el 20/12/2024</time></p>
+                <p>HTML5 trae nuevas etiquetas <em>muy interesantes</em>
+                para mejorar la web.</p>
+
+                <blockquote>
+                    <q>a uniquely portable magic</q>
+                    - <cite>Stephen King</cite>
+                </blockquote>
+
+                <p>La <span class="label">URL</span>: <a
+                href="https://www.example.com">https://www.example.com</a></p>
+                <p>Visita a la <abbr title="World Health
+                Organization">WHO</abbr> para más información.</p>
+            </article>
+        </div>
+        </div>
+        <aside>
+            <div class="sidebar">
+            <div class="box">
+            <h2>Acerca de</h2>
+            <p>Desarrollador web y escritor ocasional.</p>
+            </div>
+            <div class="box">
+            <h2>Contacto</h2>
+            <address>
+            <span class="label">Email:</span> contacto@ejemplo.com
+            </address>
+            </div>
+            </div>
+        </aside>
+    </main>
+
+<footer>
+    <div class="footer">
+    <div>© 2025 Mi Sitio</div>
+    <div>Hecho con <em>café</em> y paciencia.</div>
+    </div>
+</footer>
+
+</body>
+</html>
